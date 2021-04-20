@@ -25,14 +25,14 @@ header .container {
 header .logo{
 	margin-left: 5px;
 	color: var(--vermelho);
-	font-family: 'Arial BLack';
+	font-family: 'Arial BLack', Times;
 	font-size: 40px;
 }
 
 header nav a{
 	text-decoration: none;
 	color: #AAA;
-	margin-right: 10 px;
+	margin-right: 10px;
 }
 
 header nav a:hover {
@@ -64,7 +64,7 @@ header nav a:hover {
 }
 
 .botao {
-	background-color: rgba(0, 0, 0, .50%);
+	background-color: rgba(0, 0, 0, .50);
 	border: none;
 	color: white;
 	padding: 15px 30px;
