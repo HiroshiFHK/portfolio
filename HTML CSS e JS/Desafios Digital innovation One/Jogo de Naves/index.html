@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Resgate</title>
+</head>
+<body>
+<div id="container">
+    <div id="gameBackground">
+        <div id="start" onclick="start()">
+            <h1>Rescue</h1>
+            <p>Use key W to move the helicopter up, the key S to move helicopter down and key D to shoot.</p>
+            <p id="clickStart">Click here to start!!</p>
+        </div>
+    </div>
+</div>
+
+<audio src="songs/som.mp3" preload="auto" id="shootSound"></audio>
+<audio src="songs/explosao.mp3" preload="auto" id="explosionSound"></audio>
+<audio src="songs/musica_fundo.mp3" preload="auto" id="music"></audio>
+<audio src="songs/gameover.mp3" preload="auto" id="gameOverSound"></audio>
+<audio src="songs/perdido.mp3" preload="auto" id="lostsSound"></audio>
+<audio src="songs/resgate.mp3" preload="auto" id="rescueSound"></audio>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-collision.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>

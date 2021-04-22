@@ -1,10 +1,10 @@
 @font-face {
-    font-family: Título;
+    font-family: Title;
     src:url(../fonts/ANODETONOONE.TTF);
 }
 
 h1 {
-    font-family: Título;
+    font-family: Title;
     font-size: 40px;
     color: #603A03
 }
@@ -74,12 +74,18 @@ body {
 	margin-top: 100px;
 	text-align: center;
 	padding: 10px;
+	cursor: pointer;
+}
+
+#clickStart {
+	font-family: Title;
+    font-size: 20px;
+    color: #603A03
 }
 
 .anima1 {
 	background-image: url(../imgs/helicoptero.png);
 	animation: play .5s steps(2) infinite;
-
 	-webkit-animation: play .5s steps(2) infinite;
 	-moz-animation: play .5s steps(2) infinite;
 	-ms-animation: play .5s steps(2) infinite;
@@ -177,7 +183,7 @@ body {
 .anima4 {
 	width: 44px;
 	height: 51px;
-	background-image: url(../imgs/amigo_explosao.png);
+	background-image: url(../imgs/amigo_morte.png);
 	animation: play3 .5s steps(7) infinite;
 	-webkit-animation: play3 .5s steps(7) infinite;
     -moz-animation: play3 .5s steps(7) infinite;
@@ -208,4 +214,44 @@ body {
 @-o-keyframes play3 {
    	from { background-position: 0px;}
     to { background-position: -308px;}
+}
+
+#scoreBoard {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	top: 590px;
+}
+
+h2 {
+	font-family: Titulo;
+	font-size: 20px;
+	color: #FFF;
+}
+
+#energy {
+	width: 140px;
+	height: 38px;
+	position: absolute;
+	left: 750px;
+	top: 7px;
+}
+
+h3 {
+	font-family: Titulo;
+	font-size: 20px;
+	color: #603A03;
+}
+
+#theEnd {
+	width: 350px;
+	height: 200px;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
 }
