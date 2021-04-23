@@ -1,3 +1,4 @@
+![geniusGameThumb](https://user-images.githubusercontent.com/75752123/115877158-82c6b700-a41d-11eb-8f73-13f54194b736.jpg)
 # Creating a memory game like "Genius" / Criando um jogo de memória igual "Genius"
 
 English:
