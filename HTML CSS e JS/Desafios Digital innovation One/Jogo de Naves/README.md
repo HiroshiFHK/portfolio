@@ -1,3 +1,4 @@
+![aircraftGameThumb](https://user-images.githubusercontent.com/75752123/115877898-52cbe380-a41e-11eb-8fb8-3b7412dc44a6.jpg)
 # Creating a run and gun platform game / Criando um jogo de plataforma "run and gun"
 
 English:
