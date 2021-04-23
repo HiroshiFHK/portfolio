@@ -1,5 +1,5 @@
-![netflixPagePcThumb](https://user-images.githubusercontent.com/75752123/115881153-d509d700-a421-11eb-9b14-b2098a0f75a1.jpg)
-![netflixPageMobileThumb](https://user-images.githubusercontent.com/75752123/115881155-d5a26d80-a421-11eb-928f-0d594062c56e.jpg)
+![netflixPagePcThumb](https://user-images.githubusercontent.com/75752123/115881384-100c0a80-a422-11eb-8573-caaae50b3962.jpg)
+![netflixPageMobileThumb](https://user-images.githubusercontent.com/75752123/115881389-113d3780-a422-11eb-859c-ee833b5a4325.jpg)
 # Recreating the interface of Netflix in PT-BR / Recriando a interface do Netflix em PT-BR
 
 English:
