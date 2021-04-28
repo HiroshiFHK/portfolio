@@ -3,6 +3,8 @@ const background = document.querySelector('.background');
 let isJumping = false;
 let isGameOver = false;
 let position = 0;
+var score = 0;
+var scoreBoard = document.getElementById('scoreBoard');
 
 function handleKeyUp(event) {
 	if (event.keyCode === 32) {
@@ -34,12 +36,14 @@ function jump() {
 			dino.style.bottom = position + 'px';
 		}
 	}, 20);
+
+	score = score + 10;
 }
 
 function createCactus() {
 	const cactus = document.createElement('div');
 	let cactusPosition = 1500;
-	let randomTime = Math.random() * 6000 + 2.0;
+	let randomTime = Math.random() * 6000 + 700;
 
 	if (isGameOver) return;
 
@@ -61,8 +65,11 @@ function createCactus() {
 		}
 	}, 20);
 
-	let randomTime2 = Math.random()
 	setTimeout(createCactus, randomTime);
+}
+
+function scoreBoard() {
+    $("#scoreBoard").html("<h2> Score: " + score + "</h2>");
 }
 
 createCactus();

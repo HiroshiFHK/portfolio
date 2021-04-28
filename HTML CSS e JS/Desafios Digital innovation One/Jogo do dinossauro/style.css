@@ -2,6 +2,12 @@ body {
 	background: #fafafa;
 }
 
+h2 {
+	font-family: arial;
+	font-size: 20px;
+	color: #FFF;
+}
+
 .dino {
 	width: 60px;
 	height: 60px;
@@ -46,4 +52,12 @@ body {
 	width: 100%;
 	height: 200px;
 	margin-bottom: 50px;
+}
+
+#scoreBoard {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	top: 590px;
 }
