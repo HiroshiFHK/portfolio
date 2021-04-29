@@ -55,9 +55,12 @@ h2 {
 }
 
 #scoreBoard {
-	width: 450px;
+	width: 200px;
 	height: 50px;
-	position: absolute;
-	left: 5px;
-	top: 590px;
+	position: fixed;
+	left: 80px;
+	top: 80px;
+	font-family: arial;
+	font-size: 50px;
+	color: #666666;
 }

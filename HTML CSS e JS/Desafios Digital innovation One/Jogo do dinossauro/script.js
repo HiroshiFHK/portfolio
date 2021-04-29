@@ -4,7 +4,6 @@ let isJumping = false;
 let isGameOver = false;
 let position = 0;
 var score = 0;
-var scoreBoard = document.getElementsByClassName('scoreBoard');
 
 function handleKeyUp(event) {
 	if (event.keyCode === 32) {
@@ -38,6 +37,8 @@ function jump() {
 	}, 20);
 
 	score = score + 10;
+
+	document.getElementById('scoreBoard').innerHTML = "Score: " + score;
 }
 
 function createCactus() {
@@ -58,7 +59,8 @@ function createCactus() {
 		} else if (cactusPosition > 0 && cactusPosition < 60 && position < 60) {
 			clearInterval(leftInterval);
 			isGameOver = true;
-			document.body.innerHTML = '<h1 class="game-over">Fim de jogo</h1>';
+			document.body.innerHTML = '<h1 id="g-over" class="game-over">Fim de jogo</h1>';
+			document.getElementById('g-over').innerHTML = '<h1>Fim de jogo</h1>\nScore: ' + score;
 		} else {
 			cactusPosition -= 10;
 			cactus.style.left = cactusPosition + 'px';
@@ -68,9 +70,7 @@ function createCactus() {
 	setTimeout(createCactus, randomTime);
 }
 
-function scoreBoard() {
-    $(".scoreBoard").html("<h2> Score: " + score + "</h2>");
-}
+
 
 createCactus();
 document.addEventListener('keyup', handleKeyUp);
