@@ -4,7 +4,7 @@ let isJumping = false;
 let isGameOver = false;
 let position = 0;
 var score = 0;
-var scoreBoard = document.getElementById('scoreBoard');
+var scoreBoard = document.getElementsByClassName('scoreBoard');
 
 function handleKeyUp(event) {
 	if (event.keyCode === 32) {
@@ -69,7 +69,7 @@ function createCactus() {
 }
 
 function scoreBoard() {
-    $("#scoreBoard").html("<h2> Score: " + score + "</h2>");
+    $(".scoreBoard").html("<h2> Score: " + score + "</h2>");
 }
 
 createCactus();
