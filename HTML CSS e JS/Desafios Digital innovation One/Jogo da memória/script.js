@@ -69,14 +69,28 @@ cards.forEach((card) => {
 });
 
 function endGame() {
-    alert('Congratulations!!!\n\nClick OK to restart');
-    newGame();
+    setTimeout(() => {
+        let cardsFlipped = 0;
+        alert('Congratulations!!!\n\nClick OK to restart');
+        newGame();
+        (function shuffle() {
+            cards.forEach((card) => {
+                let randomPosition = Math.floor(Math.random() * 12);
+                card.style.order = randomPosition;
+            })
+        })();
+    }, 1200);
 }
 
 function newGame() {
     setTimeout(() => {
+        resetBoard();
         cards.forEach((card) => {
-        card.classList.remove('flip');
-    });
-    }, 1500);
+            card.classList.remove('flip');
+        });
+        cards.forEach((card) => {
+            card.addEventListener('click', flipCard)
+        });
+        
+    }, 1000);
 }
