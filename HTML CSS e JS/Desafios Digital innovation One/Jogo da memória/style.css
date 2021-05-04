@@ -56,3 +56,22 @@ body {
 .card.flip {
     transform: rotateY(180deg);
 }
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .memory-game {
+    width: 90%;
+    height: 90%;
+  }
+
+  .card {
+    width: 30%;
+    height: 20%;
+  }
+
+  .card-front,
+  .card-back {
+    padding: 10px;
+  }
+}
