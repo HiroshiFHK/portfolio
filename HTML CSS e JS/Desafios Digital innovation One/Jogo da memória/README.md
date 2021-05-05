@@ -1,13 +1,10 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+![jogo memoria mario](https://user-images.githubusercontent.com/75752123/117145664-c4465300-ad89-11eb-995d-a6c6bf27193a.jpg)
+# Creating Mario's memory game / Criando o jogo da memória do Mario
 
-Esse é o repositório da nossa aula de Javascript, na qual vamos fazer um jogo da memória com a temática de Super Mario! 
+English:
 
-### Os requisitos são:
+With the help from the DIO platform, i created a simple memory game with a Mario theme, using HTML, CSS and JS.
 
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-* [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
- 
+Português (Brazil):
 
-
-## 🚀 Let's code! 🚀
+Com a ajuda da plataforma da DIO, eu criei um simples jogo da memória com a temática do Mario, usando HTML, CSS e JS.
