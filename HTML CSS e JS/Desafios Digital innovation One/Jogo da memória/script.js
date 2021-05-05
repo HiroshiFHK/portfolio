@@ -70,15 +70,9 @@ cards.forEach((card) => {
 
 function endGame() {
     setTimeout(() => {
-        let cardsFlipped = 0;
+        cardsFlipped.splice(0,6);
         alert('Congratulations!!!\n\nClick OK to restart');
         newGame();
-        (function shuffle() {
-            cards.forEach((card) => {
-                let randomPosition = Math.floor(Math.random() * 12);
-                card.style.order = randomPosition;
-            })
-        })();
     }, 1200);
 }
 
@@ -91,6 +85,18 @@ function newGame() {
         cards.forEach((card) => {
             card.addEventListener('click', flipCard)
         });
-        
     }, 1000);
+
+    lockBoard = true;
+
+    setTimeout(() => {
+        (function shuffle() {
+            cards.forEach((card) => {
+                let randomPosition = Math.floor(Math.random() * 12);
+                card.style.order = randomPosition;
+            })
+        })();
+    }, 1500);
+
+    resetBoard();
 }
