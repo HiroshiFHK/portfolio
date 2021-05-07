@@ -1,4 +1,4 @@
-![jogo da velha](https://user-images.githubusercontent.com/75752123/117442331-00ee8780-af0d-11eb-87c5-2eb2c6b2a0ad.jpg)
+![jogo da velha](https://user-images.githubusercontent.com/75752123/117442934-c9cca600-af0d-11eb-8c7e-614def58b047.jpg)
 # Creating a tic-tac-toe game / Criando um jogo da velha
 
 English:
