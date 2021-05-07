@@ -1,5 +1,5 @@
 ![jogo da velha](https://user-images.githubusercontent.com/75752123/117442934-c9cca600-af0d-11eb-8c7e-614def58b047.jpg)
-# Creating a tic-tac-toe game / Criando um jogo da velha
+# Creating a tic-tac-toe/ Criando um jogo da velha
 
 English:
 
