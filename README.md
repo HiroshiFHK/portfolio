@@ -1,8 +1,8 @@
-# Portifolio / Portifólio
+# Portfolio / Portifólio
 
 English:
 
-My personal portifolio with all the tecnologies that i learn.
+My personal portfolio with all the tecnologies that i learn.
 
 Feel free to discuss, help, criticize. Hope you enjoy.
 
