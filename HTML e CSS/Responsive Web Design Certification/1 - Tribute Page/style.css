@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans';
+  background-color: #D4D0CF;
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-style: italic;
+}
+
+#img-caption {
+  font-style: italic;
+}
+
+#img-div {
+  background-color: white;
+  padding: 20px;
+  width: 1000px;
+  margin: auto;
+}
+
+#main-image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+ul {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  line-height: 2.5;
+}
+
+#curiosity {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  #img-div {
+    width: 90%;
+  }
+  #tribute-info {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  #img-div {
+    width: 90%;
+  }
+
+  #tribute-info {
+    width: 90%;
+  }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">  <!-- use = font-family: 'Yusei Magic', sans-serif; -->
+    <meta charset="utf-8">
+    <meta name="viewport" width="device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <main>
+    <body>
+      <div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center"> Hiroshi's temple form</h1>
+          <p id="description" class="desciption text-center"> Thank you for help us improve the content </p>
+        </header>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">  
+            <label id="email-label" for="email">Email</label>
+            <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="age">Age</label>
+            <input type="number" name="age" id="number" class="form-control" min="10" max="99" placeholder="Enter your age" required>
+          </div>
+          <div class="form-group">
+            <p>Which option best describes your knowledges?</p>
+            <select id="dropdown" name="knowledge" class="form-control" required>
+              <option disabled selected value>Select current knowledge</option>
+              <option value="inside-art">Tai Chi Chuan/Qi Gong</option>
+              <option value="outside-art">Kung Fu</option>
+              <option value="western">Muay Thay/BJJ</option>
+              <option value="other">Other</option>
+            </select>
+          </div>  
+          <div class="form-group">
+            <p>Would you recommend Hiroshi's temple to a friend?</p>
+            <label>
+              <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>
+              Definitely
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input name="user-recommend" value="maybe" type="radio" class="input-radio">
+              Maybe
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input name="user-recommend" value="not-sure" type="radio" class="input-radio">
+              Not sure
+            </label>
+          </div>
+          <div class="form-group">
+            <p>What is your favorite style?</p>
+            <select id="most-like" name="mostLike" class="form-control" required>
+              <option disable selected value>Select an option</option>
+              <option value="inside-art">Tai Chi Chuan/Qi Gong</option>
+              <option value="outside-art">Kung Fu</option>
+              <option value="western">Muay Thai/BJJ</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p>What would you like to see improved?</p>
+            <label>
+              <input name="prefer" value="inside-art" type="checkbox" class="input-checkbox">
+              Tai Chi Chuan/Qi Gong
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input name="prefer" value="outside-art" type="checkbox" class="input-checkbox">
+              Kung Fu
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input name="prefer" value="western" type="checkbox" class="input-checkbox">
+              Muay Thai/BJJ
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input name="prefer" value="other" type="checkbox" class="input-checkbox">
+              Additional Courses
+            </label>
+          </div>
+          <div class="form-group">
+            <p>Any comments ou suggestions?</p>
+            <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </body>
+  </main>
+</html>
+
