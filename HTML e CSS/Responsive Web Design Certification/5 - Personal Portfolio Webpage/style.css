@@ -91,8 +91,8 @@ nav {
 }
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px. 1fr));
-  grid-gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 17rem;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
@@ -102,6 +102,8 @@ nav {
   background: #303841;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
+  height: 500px;
+  width: 500px;
 }
 .code {
   color: #303841;
@@ -186,12 +188,20 @@ nav {
   html {
     font-size: 60%;
   }
+  .project-tile {
+    height: 42vh;
+    width: 42vh;
+  }
 }
 
 /* 980px / 16px = 61.25em */
 @media (max-width: 61.25em) {
   html {
     font-size: 58%;
+  }
+  .project-tile {
+    height: 42vh;
+    width: 42vh;
   }
 }
 
@@ -202,6 +212,10 @@ nav {
   }
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+  .project-tile {
+    height: 42vh;
+    width: 42vh;
   }
 }
 
@@ -221,5 +235,9 @@ nav {
   }
   .contact-section-header > h2 {
     font-size: 4rem;
+  }
+  .project-tile {
+    height: 42vh;
+    width: 42vh;
   }
 }
