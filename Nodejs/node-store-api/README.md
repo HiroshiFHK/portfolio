@@ -1,3 +1,5 @@
+![node-store-api](https://user-images.githubusercontent.com/75752123/119691310-d9f6e780-be20-11eb-88ee-f6a2379e5b5b.jpg)
+
 # Node Store API
 
 <h2>English:</h2>
