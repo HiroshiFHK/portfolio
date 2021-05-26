@@ -4,7 +4,7 @@
 <p>
 Here is a API that simulates a store, with products, users, authentications and databases.
 
-Usado: express, mongoose, jwt, guid, md5, nodemon, mongodb, azure storage, postman and studio 3T.
+Used: express, mongoose, jwt, guid, md5, nodemon, mongodb, azure storage, postman and studio 3T.
 </p>
 
 -------------------------------------------------------------------
