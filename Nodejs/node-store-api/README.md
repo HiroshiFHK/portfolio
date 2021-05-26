@@ -1,4 +1,4 @@
-![node-store-api](https://user-images.githubusercontent.com/75752123/119691310-d9f6e780-be20-11eb-88ee-f6a2379e5b5b.jpg)
+![node-store-api](https://user-images.githubusercontent.com/75752123/119691840-48d44080-be21-11eb-99f7-89837d5bb261.jpg)
 
 # Node Store API
 
