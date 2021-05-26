@@ -1,13 +1,15 @@
 # Projects of Digital Innovation One / Projetos da Digital Innovation One
 
-English:
-
+<h2>English:</h2>
+<p>
 Here is all the challenges from DIO platform.
+</p>
+-------------------------------------------------------------------
 
-Português (Brazil):
-
+<h2>Português (Brazil):</h2>
+<p>
 Aqui estão todos os desafios da plataforma DIO.
-
+</p>
 <img src="https://user-images.githubusercontent.com/75752123/115881384-100c0a80-a422-11eb-8573-caaae50b3962.jpg">
 <img src="https://user-images.githubusercontent.com/75752123/115881389-113d3780-a422-11eb-859c-ee833b5a4325.jpg">
 

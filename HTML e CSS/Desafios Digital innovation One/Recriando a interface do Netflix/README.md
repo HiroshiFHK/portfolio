@@ -2,10 +2,13 @@
 ![netflixPageMobileThumb](https://user-images.githubusercontent.com/75752123/115881389-113d3780-a422-11eb-859c-ee833b5a4325.jpg)
 # Recreating the interface of Netflix in PT-BR / Recriando a interface do Netflix em PT-BR
 
-English:
-
+<h2>English:</h2>
+<p>
 With the help from the DIO platform, i created a basic copy from the interface of Netflix.
+</p>
+-------------------------------------------------------------------
 
-Português (Brazil):
-
+<h2>Português (Brazil):</h2>
+<p>
 Com a ajuda da plataforma da DIO, eu criei uma cópia básica da interface do Netflix.
+</p>
